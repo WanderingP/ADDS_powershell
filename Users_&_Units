@@ -45,3 +45,10 @@ foreach ($User in $ADUsers)
 
        }
 }
+
+
+++++++++++++++ In CSV file include OU information column
+example:
+ou
+OU=Users,OU=Rome,OU=KELVGLOBAL,DC=KELVGLOBAL,DC=COM
+
