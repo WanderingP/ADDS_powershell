@@ -1,10 +1,10 @@
 Active Directory Useres and Computers ---
 
-Add Organisational unit - applies when adding to a existing OU
+---------------------------------------------------------------------------------------Add Organisational unit - applies when adding to a existing OU
 
 New-ADOrganizationalUnit -Name [] -Path "OU=[] DC=[domain], DC=[domain extention]"
 
-Create Multiple users from CSV file 
+--------------------------------------------------------------------------------------------------Create Multiple users from CSV file 
 
 #Enter a path to your import CSV file
 $ADUsers = Import-csv C:\temp\NewUsers1.csv
